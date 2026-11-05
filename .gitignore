@@ -1,0 +1,9 @@
+.*
+
+# 예외: git 설정 파일과 빈 폴더 유지용 파일은 추적
+!.gitignore
+!.gitkeep
+
+#용량 문제로 제외
+app/Model/
+app/data/
